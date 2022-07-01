@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --h1: #172b4d;
   --paragraph: #344563;
@@ -12,6 +13,7 @@
   --connect: #7f8cff;
   --navbar: #6070ff;
 }
+
 header {
   display: flex;
   margin-bottom: 20px;
@@ -31,8 +33,11 @@ section {
   background-image: url(images/mobile-header.png);
   background-position: top;
   background-repeat: no-repeat;
-  }
-h1, p, .connect, span {
+}
+h1,
+p,
+.connect,
+span {
   font-family: "Poppins", sans-serif;
 }
 h1 {
@@ -54,6 +59,7 @@ p {
   margin: 10px auto;
   color: var(--connect);
 }
+
 div {
   display: flex;
   width: 70%;
@@ -62,12 +68,12 @@ div {
 div img {
   margin-right: 10px;
   cursor: pointer;
-} 
+}
+
 @media only screen and (min-width: 375px) {
-section {
-  background-image: url(images/header-img.png);
-  background-position: auto;
-  background-repeat: no-repeat;
+  section {
+    background-image: url(images/header-img.png);
+    background-position: auto;
+    background-repeat: no-repeat;
+  }
 }
-}
-\n
