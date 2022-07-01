@@ -24,9 +24,9 @@ header div {
   align-items: center;
 }
 
-h1,\n
-p,\n
-.connect,\n
+h1,
+p,
+.connect,
 span {
   font-family: "Poppins", sans-serif;
 }
@@ -79,9 +79,9 @@ div img {
 }
 
 @media only screen and (min-width: 375px) {
-  section {
-    background-image: url(images/header-img.png);
-    background-position: auto;
-    background-repeat: no-repeat;
-  }
+section {
+  background-image: url(images/header-img.png);
+  background-position: auto;
+  background-repeat: no-repeat;
+}
 }
