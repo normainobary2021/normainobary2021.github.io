@@ -22,7 +22,7 @@ To get a local copy up and running follow these simple example steps:
 
 ## Authors
 
-👤 **Author**
+👤 **Norman Ainobushoborozi**
 
 - GitHub: [@normainobary2021](https://github.com/normainobary2021)
 - Twitter: [@NormanAinobush2](https://twitter.com/NormanAinobush2)
