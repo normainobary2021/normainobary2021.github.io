@@ -12,7 +12,7 @@
   --socials: #505f79;
   --connect: #7f8cff;
   --navbar: #6070ff;
-  --white: #ffffff;
+  --white: #fff;
   --logo: #6070ff;
 }
 
@@ -97,7 +97,7 @@ nav {
 
 @media only screen and (min-width: 375px) {
   body {
-      width: 1600px;
-      margin: auto;
+    width: 1600px;
+    margin: auto;
   }
 }
