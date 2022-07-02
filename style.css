@@ -12,76 +12,92 @@
   --socials: #505f79;
   --connect: #7f8cff;
   --navbar: #6070ff;
+  --white: #ffffff;
+  --logo: #6070ff;
 }
 
-div {
-  display: flex;
-  width: 70%;
-  margin: 10px auto;
+a {
+  text-decoration: none;
 }
 
-div img {
-  margin-right: 10px;
-  cursor: pointer;
+body {
+  font-family: 'Poppins', sans-serif;
+  max-width: 375px;
+  margin: auto;
 }
 
 header {
-  display: flex;
-  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  width: 375px;
+  padding: 10px;
+  background-color: var(--white);
 }
 
-header div {
+nav {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-h1,
-p,
-.connect,
-span {
-  font-family: "Poppins", sans-serif;
-}
-
-header span {
-  color: var(--navbar);
-  font-weight: 700;
-  font-size: 18px;
-}
-
-section {
+.about-section {
   display: flex;
-  flex-flow: column wrap;
-  background-image: url(images/mobile-header.png);
-  background-position: top;
+  flex-direction: column;
+  background-image: url(images/background.svg);
   background-repeat: no-repeat;
+  margin-top: 70px;
 }
 
-h1 {
-  width: 70%;
-  margin: 40px auto 10px;
+.logo-text a {
+  font-size: 18px;
   font-weight: 700;
-  font-size: 40px;
-  color: var(--h1);
+  color: var(--logo);
 }
 
-p {
-  text-align: justify;
-  width: 70%;
-  margin: 10px auto;
+.primary-text {
+  width: 327px;
+  margin-left: 24px;
+}
+
+.primary-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--h1);
+  margin-top: 90px;
+  margin-bottom: 12px;
+}
+
+.primary-text p {
+  font-size: 16px;
+  font-weight: 400;
   color: var(--paragraph);
+  text-align: justify;
+  margin-bottom: 12px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+.socials {
+  display: flex;
+  list-style: none;
+}
+
+.socials li {
+  margin-right: 19px;
 }
 
 .connect {
-  text-transform: capitalize;
-  width: 70%;
-  margin: 10px auto;
   color: var(--connect);
+  margin-bottom: 12px;
 }
 
 @media only screen and (min-width: 375px) {
-  section {
-    background-image: url(images/header-img.png);
-    background-position: auto;
-    background-repeat: no-repeat;
+  body {
+      width: 1600px;
+      margin: auto;
   }
 }
