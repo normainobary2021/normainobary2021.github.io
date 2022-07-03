@@ -232,7 +232,7 @@ nav {
   margin: 0 24px;
 }
 
-.outer-list, 
+.outer-list,
 .inner-list {
   display: flex;
   flex-direction: column;
