@@ -28,11 +28,6 @@ a {
   text-decoration: none;
 }
 
-button {
-  border: none;
-  background: none;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
   max-width: 375px;
@@ -210,10 +205,19 @@ nav {
 {
   display: flex;
   justify-content: flex-start;
+  color: var(--logo);
+  margin-right: 150px;
+  border: 1px solid var(--logo);
+  border-radius: 8px;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
-.project-btn:enabled a,
-.resume-btn:enabled a {
+.project-btn:enabled,
+.resume-btn:enabled
+{
   font-size: 17px;
   font-weight: 500;
   color: var(--logo);
@@ -223,15 +227,17 @@ nav {
   padding: 10px;
 }
 
-.project-btn:hover a,
-.resume-btn:hover a {
+.project-btn:hover,
+.resume-btn:hover
+{
   color: var(--white);
   border-color: var(--connect);
   background-color: var(--connect);
 }
 
-.project-btn:active a,
-.resume-btn:active a {
+.project-btn:active,
+.resume-btn:active
+{
   color: var(--white);
   background-color: var(--logo);
   border-color: var(--logo);
@@ -253,8 +259,9 @@ nav {
   margin: 0 24px;
 }
 
-.outer-list, 
-.inner-list {
+.outer-list,
+.inner-list
+{
   display: flex;
   flex-direction: column;
   list-style: none;
