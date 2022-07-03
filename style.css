@@ -28,6 +28,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: none;
+  background: none;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   max-width: 375px;
@@ -159,7 +164,7 @@ nav {
   margin-left: 16px;
 }
 
-.work-details h1 {
+.work-details h2 {
   font-size: 32px;
   font-weight: 700;
   color: var(--h1);
@@ -200,20 +205,36 @@ nav {
   margin-bottom: 60px;
 }
 
-.project-btn a,
-.resume-btn a {
+.project-btn,
+.resume-btn
+{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.project-btn:enabled a,
+.resume-btn:enabled a {
   font-size: 17px;
   font-weight: 500;
   color: var(--logo);
   border: 1px solid var(--logo);
+  background-color: transparent;
   border-radius: 8px;
   padding: 10px;
 }
 
 .project-btn:hover a,
 .resume-btn:hover a {
-  color: var(--paragraph);
-  border-color: var(--paragraph);
+  color: var(--white);
+  border-color: var(--connect);
+  background-color: var(--connect);
+}
+
+.project-btn:active a,
+.resume-btn:active a {
+  color: var(--white);
+  background-color: var(--logo);
+  border-color: var(--logo);
 }
 
 .contact-section {
@@ -232,7 +253,7 @@ nav {
   margin: 0 24px;
 }
 
-.outer-list,
+.outer-list, 
 .inner-list {
   display: flex;
   flex-direction: column;
@@ -276,6 +297,24 @@ nav {
 
 .inner-list li span {
   margin-left: 16px;
+}
+
+.arrow {
+  border: solid var(--black);
+  border-width: 0 2px 2px 0;
+  display: inline-flex;
+  padding: 5px;
+  margin-left: 100px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 @media only screen and (min-width: 375px) {
