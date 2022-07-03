@@ -201,8 +201,7 @@ nav {
 }
 
 .project-btn,
-.resume-btn
-{
+.resume-btn {
   display: flex;
   justify-content: flex-start;
   color: var(--logo);
@@ -216,8 +215,7 @@ nav {
 }
 
 .project-btn:enabled,
-.resume-btn:enabled
-{
+.resume-btn:enabled {
   font-size: 17px;
   font-weight: 500;
   color: var(--logo);
@@ -228,16 +226,14 @@ nav {
 }
 
 .project-btn:hover,
-.resume-btn:hover
-{
+.resume-btn:hover {
   color: var(--white);
   border-color: var(--connect);
   background-color: var(--connect);
 }
 
 .project-btn:active,
-.resume-btn:active
-{
+.resume-btn:active {
   color: var(--white);
   background-color: var(--logo);
   border-color: var(--logo);
@@ -260,8 +256,7 @@ nav {
 }
 
 .outer-list,
-.inner-list
-{
+.inner-list {
   display: flex;
   flex-direction: column;
   list-style: none;
