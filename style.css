@@ -101,7 +101,7 @@ nav {
   margin-bottom: 110px;
 }
 
-.socials,
+.socials
 .languages {
   display: flex;
   list-style: none;
@@ -121,6 +121,9 @@ nav {
   font-size: 12px;
   font-weight: 500;
   color: var(--logo);
+  float: left;
+  list-style: none;
+ 
 }
 
 .connect {
