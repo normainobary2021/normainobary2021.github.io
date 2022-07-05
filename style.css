@@ -332,6 +332,43 @@ nav {
   flex-direction: column;
   align-items: center;
 }
+.contact-form .contact-list {
+  list-style: none;
+}
+
+.contact-form h2 {
+  margin-top: 100px;
+  margin-bottom: 12px;
+  color: var(--white);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact-form p {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  width: 327px;
+  margin-bottom: 50px;
+}
+
+.contact-list-item input,
+.contact-list-item textarea {
+  font-family: inherit;
+}
+
+.contact-list-item input {
+  color: var(--h1);
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px 38px 15px 16px;
+  margin-bottom: 20px;
+  width: 327px;
+  border: 1px solid var(--border2);
+  border-radius: 8px;
+}
 
 @media only screen and (min-width: 375px) {
   body {
