@@ -443,11 +443,11 @@ nav {
     display: flex;
     list-style: none;
   }
-  
+
   .menu-items li {
     margin-right: 32px;
   }
-  
+
   .menu-items li a {
     text-decoration: none;
     color: var(--paragraph);
@@ -461,7 +461,7 @@ nav {
   .contact-form {
     width: 100%;
   }
-  
+
   .about-section {
     margin-top: 47px;
     background-image: url(images/bg-desktop1.svg);
@@ -472,7 +472,7 @@ nav {
   .social-media {
     width: 920px;
   }
-  
+
   .about-section .social-media {
     margin-bottom: 430px;
   }
@@ -554,7 +554,7 @@ nav {
     align-content: center;
     justify-content: space-evenly;
   }
-  
+
   .experience .inner-list li {
     margin-top: 36px;
     width: 30%;
@@ -596,5 +596,4 @@ nav {
     font-size: 17px;
     font-weight: 500;
   }
-
 }
