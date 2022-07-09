@@ -76,6 +76,10 @@ nav {
   font-size: 18px;
   font-weight: 700;
   color: var(--logo);
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
 }
 
 .primary-text {
@@ -422,6 +426,7 @@ nav {
   width: 140px;
   margin-bottom: 45px;
   cursor: pointer;
+  transition: all 0.2s linear;
 }
 
 .contact-list-item button:hover {
@@ -434,6 +439,19 @@ nav {
   color: var(--white);
   background-color: var(--h1);
   border-color: var(--h1);
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+
+  50%,
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -470,6 +488,11 @@ nav {
     color: var(--paragraph);
     font-size: 15px;
     font-weight: 500;
+    transition: all 0.1s ease;
+  }
+
+  .menu-items li:hover a {
+    border-bottom: 2px solid var(--black);
   }
 
   .about-section,
@@ -532,6 +555,11 @@ nav {
 
   .work-image-large img {
     width: 100%;
+    transition: all 0.5s ease;
+  }
+
+  .work-image-large img:hover {
+    transform: scale(1.09);
   }
 
   .work-details {
@@ -549,6 +577,7 @@ nav {
   .button-margin {
     width: 50%;
     padding-left: 5%;
+    transition: all 0.5s ease;
   }
 
   .contact-section {
