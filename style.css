@@ -553,6 +553,11 @@ nav {
 
   .work-image-large img {
     width: 100%;
+    transition: all 0.5s ease;
+  }
+
+  .work-image-large img:hover {
+    transform: scale(1.09);
   }
 
   .work-details {
