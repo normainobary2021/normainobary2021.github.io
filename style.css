@@ -426,6 +426,7 @@ nav {
   width: 140px;
   margin-bottom: 45px;
   cursor: pointer;
+  transition: all 0.2s linear;
 }
 
 .contact-list-item button:hover {
@@ -575,6 +576,7 @@ nav {
   .button-margin {
     width: 50%;
     padding-left: 5%;
+    transition: all 0.5s ease;
   }
 
   .contact-section {
