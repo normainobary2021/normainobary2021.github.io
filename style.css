@@ -49,7 +49,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -216,7 +216,6 @@ nav {
   font-size: 15px;
   font-weight: 400;
   color: var(--paragraph);
-  width: 295px;
   margin-top: 20px;
 }
 
