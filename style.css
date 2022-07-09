@@ -76,6 +76,10 @@ nav {
   font-size: 18px;
   font-weight: 700;
   color: var(--logo);
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
 }
 
 .primary-text {
@@ -436,6 +440,18 @@ nav {
   border-color: var(--h1);
 }
 
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+  
+  50%, 100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   body {
     width: 100%;
@@ -470,6 +486,11 @@ nav {
     color: var(--paragraph);
     font-size: 15px;
     font-weight: 500;
+    transition: all 0.1s ease;
+  }
+
+  .menu-items li:hover a {
+    border-bottom: 2px solid var(--black);
   }
 
   .about-section,
