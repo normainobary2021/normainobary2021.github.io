@@ -2,8 +2,7 @@
 
 # My Portfolio
 
-> The first 2 sections of a mobile-first personal portfolio website created using Figma template and then added HTML & CSS functionality.
-
+> You may find the online version of my-portfolio here: https://normainobary2021.github.io/
 
 ## Built With
 
